@@ -2,9 +2,9 @@ package runtime
 
 import (
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	ginkgoconfig "github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/reporters"
+	. "github.com/onsi/ginkgo/v2"
+	ginkgoconfig "github.com/onsi/ginkgo/v2/config"
+	"github.com/onsi/ginkgo/v2/reporters"
 	. "github.com/onsi/gomega"
 	"os"
 	"path/filepath"
